@@ -31,5 +31,4 @@ const Navbar = ({toggle}) => {
    );
 };
 
-
 export default Navbar;
