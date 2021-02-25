@@ -57,7 +57,7 @@ export const HeroH1 = styled.h1`
   }
 `;
 
-export const HeroP = styled.div`
+export const HeroP = styled.p`
   margin-top: 24px;
   color: #fff;
   font-size: 24px;
@@ -71,6 +71,7 @@ export const HeroP = styled.div`
   @media screen and (max-width: 480px) {
     font-size: 18px;
   }
+  
 `;
 
 export const HeroBtnWrapper = styled.div`

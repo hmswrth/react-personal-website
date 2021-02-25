@@ -23,6 +23,11 @@ const HeroSection = () => {
   const onHover = () => {
     setHover(!hover);
   };
+
+  const typingEffect=()=>{
+   
+  };
+
   return (
     <>
       <HeroContainer>
@@ -39,15 +44,15 @@ const HeroSection = () => {
         <HeroContent>
           <HeroAvatar src={Avatar}>
           </HeroAvatar>
-          <HeroH1>Hi, I'm Hemanth Mudra</HeroH1>
+          <HeroH1>Hi, I'm Hemanth</HeroH1>
           <HeroP>I'm a<Typewriter 
               options={{
-                strings: ["front-end developer", 'back-end developer', 'software engineer', 'tech enthusiast'],
+                strings: ["front-end developer!", 'back-end developer!', 'software engineer!', 'tech enthusiast!'],
                 autoStart: true,
                 loop: true,
               }}
             />
-          </HeroP>
+            </HeroP>
           <HeroBtnWrapper>
             <Button to="../files/resume.pdf" target="_blank" download onMouseEnter={onHover} onMouseLeave={onHover}>
               {hover ? <DownloadFile size={30}/> : <ArrowDownlad size={30}/>}
