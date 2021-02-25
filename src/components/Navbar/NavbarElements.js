@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
+import { FaLessThan } from "react-icons/fa";
 
 export const Nav = styled.nav`
   background: #000;
@@ -53,7 +54,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color:#fff;
+    color: #fff;
   }
 `;
 
@@ -85,4 +86,8 @@ export const NavLinks = styled(LinkS)`
   &.active {
     border-botton: 3px solid #01bf71;
   }
+`;
+
+export const LessThan = styled(FaLessThan)`
+  transform: translate(0, 20%);
 `;

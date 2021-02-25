@@ -1,13 +1,13 @@
 import React from 'react';
 import {FaBars} from 'react-icons/fa';
-import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks} from "./NavbarElements";
+import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, LessThan} from "./NavbarElements";
 
 const Navbar = ({toggle}) => {
    return (
      <>
        <Nav>
          <NavbarContainer>
-           <NavLogo to="/">hemanth</NavLogo>
+            <NavLogo to="/" > <LessThan /> hemanth </NavLogo>
            <MobileIcon onClick={toggle}>
              <FaBars />
            </MobileIcon>
